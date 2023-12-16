@@ -27,7 +27,7 @@ OAuth2 authentication with your Exchange account by running the following comman
 dra auth
 ```
 
-This will open a browser window and prompt you to login to your Exchange account. Once you have logged in, you will be
+This will open a browser window and prompt you to log in to your Exchange account. Once you have logged in, you will be
 prompted to authorize the app to access your account. Once you have authorized the app, you will be redirected to a
 blank page. You can follow the CLI prompts to copy the URL from the browser and paste it into the CLI. Once you have
 pasted the URL into the CLI, you can press enter to continue.
