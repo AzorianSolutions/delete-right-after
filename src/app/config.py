@@ -46,12 +46,13 @@ DEFAULT_SECRETS_PATH: Path | None = None
 class AppSettings(BaseSettings):
     """ The application settings class that loads setting values from the application environment. """
 
+    azure_client_id: str | None = None
+    azure_client_secret: str | None = None
     azure_oauth_authorize_url: str = 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize'
     azure_oauth_token_url: str = 'https://login.microsoftonline.com/common/oauth2/v2.0/token'
     azure_tenant_id: str | None = None
-    azure_client_id: str | None = None
-    azure_client_secret: str | None = None
-    config_path: str = '/etc/delete-right-after/config.yml'
+    azure_token_path: str = f'/etc/{base_config["name"]}/azure_token.json'
+    config_path: str = f'/etc/{base_config["name"]}/config.yml'
     debug: bool = False
     dry_run: bool = False
     env_file: str = str(DEFAULT_ENV_PATH)
