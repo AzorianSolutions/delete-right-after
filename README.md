@@ -1,7 +1,7 @@
 # Delete-Right-After
 
 This project provides a simple background service that scans your Exchange inbox for fake phishing emails originating
-from KnowBeFor and either archives or deletes them based on settings.
+from KnowBe4 and either archives or deletes them based on settings.
 
 |                                                                                                          Main Branch                                                                                                          |                                                                                                          Dev Branch                                                                                                          |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
