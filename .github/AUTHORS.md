@@ -1,6 +1,6 @@
 # Authors
 
-This is the list of the Template-Python-Cli-App application's significant contributors.
+This is the list of the Delete-Right-After application's significant contributors.
 
 This does not necessarily list everyone who has contributed code,
 especially since many employees of one corporation may be contributing.

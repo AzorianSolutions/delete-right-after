@@ -1,5 +1,5 @@
 <!--
-    Thank you for your interest in contributing to the Template-Python-Cli-App project! Please note that our contribution
+    Thank you for your interest in contributing to the Delete-Right-After project! Please note that our contribution
     policy requires that a feature request or bug report be approved and assigned prior to opening a pull request.
     This helps avoid wasted time and effort on a proposed change that we might want to or be able to accept.
 
